@@ -10,3 +10,90 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+
+:root{
+    --white-color: #fff;
+    --black-23: #0B0223;
+    --black-4f: #3C354F;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 240px;
+}
+
+
+/*shared style ends */
+
+
+/* header area styles starts */
+#header{
+    background-color: var(--white-color);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-title{
+    color: var(--black-23);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.nav-logo-title span{
+    background-image:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.nav li:last-of-type{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+.nav li:last-of-type .youtube{
+    color: #CD201F;
+    font-size: 1.25rem;
+}
+
+.nav li:last-of-type .tiktok{
+    color: #000;
+    font-size: 1.25rem;
+}
+
+.nav li a,
+.nav li p{
+    text-decoration: none;
+    color: var(--black-4f);
+    font-size: 1.13rem;
+}
+
+
+/* header area styles ends */
