@@ -15,6 +15,7 @@ body{
     --white-color: #fff;
     --black-23: #0B0223;
     --black-4f: #3C354F;
+    --pink-color: #FF42A5;
 }
 
 .container{
@@ -23,6 +24,20 @@ body{
     padding: 0 240px;
 }
 
+img{
+    width: 100%;
+}
+
+.primary-btn{
+    color: var(--white-color);
+    background-color: var(--pink-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 48px;
+}
 
 /*shared style ends */
 
@@ -97,3 +112,62 @@ body{
 
 
 /* header area styles ends */
+
+
+/* banner area styles starts */
+#banner{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+}
+
+.inner-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.banner-image{
+    max-width: 50%;
+}
+
+.banner-content{
+    text-align: left;
+}
+
+.banner-sub-title {
+    color: var(--black-23);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-convenience {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+
+.banner-convenience:last-of-type {
+    margin-bottom: 50px;
+}
+
+.secondary-btn{
+    margin-left: 20px;
+    background-color: #4EC5F7;
+}
+
+/* banner area styles ends */
