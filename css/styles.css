@@ -351,3 +351,46 @@ img{
 
 
 /* Play instantly area styles ends */
+
+/* games area style starts */
+#games{
+    width: 100%;
+    background-color: #FFF9FC;
+    padding-bottom: 100px;
+}
+
+.games-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.game-items{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.game-items:hover{
+    border: 1px solid var(--pink-color);
+    border-radius: 50px;
+    background-color: var(--white-color) ;
+    color: var(--pink-color);
+}
+
+.game-items img{
+    width: 50px;
+}
+
+.game-items h4{
+    color: var(--black-23);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* games area style ends */
