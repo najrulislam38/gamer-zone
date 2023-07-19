@@ -1,7 +1,7 @@
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
     .container{
-        padding: 20px 0px;
+        padding: 0px 20px;
     }
 
     .nav,
@@ -27,20 +27,19 @@
     .banner-image,
     .gamer-image
     {
-        max-width: calc(100% - 40px);
+        max-width: 100%;
     }
 
     .banner-content,
     .gamer-content,
     .play-instantly-content
     {
-        max-width: calc(100% - 40px);
+        max-width: 100%;
         text-align: center;
     }
 
     .game-container{
         grid-template-columns: 1fr;
-        padding: 0 20px;
     }
 
     
@@ -68,7 +67,9 @@
         left: -54px;
     }
 
-
+    .social-link a{
+        margin: 0 15px
+    }
 
 }
 

@@ -32,10 +32,6 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-img{
-    width: 100%;
-}
-
 .primary-btn{
     color: var(--white-color);
     background-color: var(--pink-color);
@@ -63,12 +59,12 @@ img{
     padding: 35px 0px;
 }
 
-.nav-logo-container{
+.brand-logo-container{
     display: flex;
     align-items: center;
 }
 
-.nav-logo-title{
+.brand-logo-title{
     color: var(--black-23);
     font-size: 2.8rem;
     font-weight: 700;
@@ -356,7 +352,7 @@ img{
 #games{
     width: 100%;
     background-color: #FFF9FC;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .games-container{
@@ -364,7 +360,7 @@ img{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 16px;
 }
 
 
@@ -384,7 +380,7 @@ img{
 }
 
 .game-items img{
-    width: 50px;
+    width: 60px;
 }
 
 .game-items h4{
@@ -394,3 +390,116 @@ img{
 }
 
 /* games area style ends */
+
+
+/* footer area style stats */
+#footer{
+    width: 100%;
+    background-color: var(--black-23);
+    padding: 120px 0 130px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:  0 auto;
+}
+
+.footer-container .brand-logo-container{
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.footer-container .brand-logo-title{
+    color: var(--white-color);
+}
+
+.footer-container > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-container li{
+    list-style: none;
+}
+
+.footer-container li a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.social-link a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.social-link a i{
+    padding: 5px;
+}
+
+.social-link a:hover .fa-facebook{
+    background-color: #1873EB;
+    border-radius: 10px;
+}
+
+.social-link a:hover .fa-youtube {
+    background-color: #F70000;
+    border-radius: 10px;
+}
+.social-link a:hover .fa-twitter{
+    background-color: #1F9BEB;
+    border-radius: 10px;
+}
+
+.social-link a:hover .fa-instagram {
+    background-color: #EF3845;
+    border-radius: 10px;
+}
+.social-link a:hover .fa-linkedin-in{
+    background-color: #0960BD;
+    border-radius: 10px;
+}
+
+.social-link a:hover .fa-apple {
+    background-color: #1D84DE;
+    border-radius: 10px;
+}
+
+
+.policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.policy a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+}
+
+.footer-container small{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+/* footer area style ends */
