@@ -38,7 +38,7 @@
         text-align: center;
     }
 
-    .game-container{
+    .online-game-container{
         grid-template-columns: 1fr;
     }
 
@@ -67,10 +67,15 @@
         left: -54px;
     }
 
-    
-.play-sub-image img{
-    width: 60%;
-}
+        
+    .play-sub-image img{
+        width: 60%;
+    }
+
+    .games-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
     .social-link a{
@@ -119,7 +124,7 @@
     }
 
     
-    .game-container{
+    .online-game-container{
         grid-template-columns: repeat(2, 1fr);
     }
 

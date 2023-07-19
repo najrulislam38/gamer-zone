@@ -240,7 +240,7 @@ body{
     margin: 10px auto 50px;
 }
 
-.game-container{
+.online-game-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
