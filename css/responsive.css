@@ -47,7 +47,6 @@
     .play-instantly-container{
         flex-direction: column;
         gap: 50px;
-        overflow: auto;
     }
 
     .play-instantly-image-container {
@@ -120,7 +119,6 @@
     .play-instantly-container{
         flex-direction: column;
         gap: 50px;
-        overflow: auto;
     }
 
     .play-instantly-image-container {
