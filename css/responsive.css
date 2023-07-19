@@ -11,13 +11,10 @@
         flex-direction: column;
     }
 
-    /* nav area styles */
-
     .nav li{
         margin-top: 36px;
     }
 
-    /* banner area styles */
     #banner{
         background-position: bottom left;
         background-size: 100%;
@@ -35,8 +32,13 @@
 
     .banner-content,
     .gamer-content{
-        max-width: 100%;
+        max-width: calc(100% - 40px);
         text-align: center;
+    }
+
+    .game-container{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
     }
 
 
@@ -81,10 +83,15 @@
         text-align: center;
     }
 
+    
+    .game-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px){
+@media screen and (min-width: 768.1px) and (max-width: 1440px){
     .container{
         padding: 0 120px;
     }
