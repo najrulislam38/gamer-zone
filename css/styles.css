@@ -121,7 +121,7 @@ img{
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: contain;
+    background-size: 50%;
 }
 
 .inner-banner{
