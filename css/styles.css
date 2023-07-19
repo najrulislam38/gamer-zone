@@ -312,7 +312,6 @@ img{
     align-items: flex-start;
     gap: 150px;
     overflow: hidden;
-
 }
 
 .play-instantly-content{
@@ -338,7 +337,7 @@ img{
 }
 
 .play-instantly-image-container{
-    max-width: 560px;
+    max-width: 50%;
 }
 
 .play-instantly-image-container > img{

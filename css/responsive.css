@@ -31,7 +31,9 @@
     }
 
     .banner-content,
-    .gamer-content{
+    .gamer-content,
+    .play-instantly-content
+    {
         max-width: calc(100% - 40px);
         text-align: center;
     }
@@ -40,6 +42,33 @@
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
+
+    
+    .play-instantly-container{
+        flex-direction: column;
+        gap: 50px;
+        overflow: auto;
+    }
+
+    .play-instantly-image-container {
+        max-width: calc(100% - 100px);
+        margin-left: 80px;
+    }
+
+    .play-instantly-content{
+        display: block;
+        text-align: center; 
+        width: auto; 
+        margin-top: 0px; 
+        margin: 0 auto;
+    }
+
+    .play-sub-image {
+        max-width: 200px;
+        top: -150px;
+        left: -54px;
+    }
+
 
 
 }
@@ -87,6 +116,32 @@
     .game-container{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .play-instantly-container{
+        flex-direction: column;
+        gap: 50px;
+        overflow: auto;
+    }
+
+    .play-instantly-image-container {
+        max-width: calc(100% - 100px);
+        margin-left: 80px;
+    }
+
+    .play-instantly-content{
+        display: block;
+        text-align: center; 
+        width: auto; 
+        margin-top: 0px; 
+        margin: 0 auto;
+    }
+
+    .play-sub-image {
+        max-width: 250px;
+        top: -160px;
+        left: -64px;
+    }
+
 
 
 }
