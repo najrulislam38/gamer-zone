@@ -281,6 +281,8 @@ body{
 .watch-now p{
     font-size: 1.13rem;
     margin-top: 10px;
+    color: var(--pink-color);
+    font-weight: 700;
 }
 
 .watch-now i{
