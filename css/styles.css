@@ -41,6 +41,7 @@ body{
     padding: 20px 40px;
     border: none;
     border-radius: 48px;
+    cursor: pointer;
 }
 
 /*shared style ends */
@@ -344,6 +345,12 @@ body{
     top: -250px;
     left: -100px;
 }
+
+.play-sub-image img{
+    width: 100%;
+}
+
+
 
 
 /* Play instantly area styles ends */
